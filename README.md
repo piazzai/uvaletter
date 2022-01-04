@@ -12,7 +12,7 @@ If you plan to use the package for multiple documents, or simply do not want to 
 
 ## Usage
 
-The package can be loaded with a `pageno` option that enables page numbering, as shown in the demo image. Here is a minimal working example:
+The package can be loaded with a `pageno` option that enables page numbering, as shown in the image above. Be aware that in order for the layout to be displayed, your letter body should be wrapped in a `letterhead` environment. Below is a minimal working example:
 
 ```tex
 \documentclass{letter}
@@ -41,4 +41,4 @@ The package can be loaded with a `pageno` option that enables page numbering, as
 \end{document}
 ```
 
-The package requires a file called `logo.jpg` to be placed in your document directory. This repository provides the general logo of the University of Amsterdam. This can be changed to the logo of specific faculties, departments, and institutes. All logos of the University can be found [here](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijlelementen/logo/logo.html).
+The package requires a file called `logo.jpg` to be placed in your document directory. This repository provides the general logo of the University of Amsterdam, which could be changed to the logo of a specific faculty, department, or institute. All logos of the University can be found [here](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijlelementen/logo/logo.html).
