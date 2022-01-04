@@ -20,8 +20,8 @@ Here is a minimal working example:
 \documentclass{letter}
 \usepackage{uvaletter}
 
-\recipient{Foo}
-\department{Bar}
+\recipient{foo}
+\department{bar}
 \visiting{}
 \postal{}
 \website{}
