@@ -15,8 +15,8 @@ If you plan to use the package for multiple documents, or simply do not want to 
 The package can be loaded with a `pageno` option that enables page numbering, as shown in the demo image. Here is a minimal working example:
 
 ```tex
-\documentclass[11pt]{letter}
-\usepackage[pageno]{uvaletter}
+\documentclass{letter}
+\usepackage{uvaletter}
 
 \recipient{}
 \department{}
