@@ -12,61 +12,61 @@
 \DeclareOption{pageno}{\rfoot{Page~\thepage~of~\pageref{LastPage}}}
 
 \newenvironment{letterhead}{%
-  \begin{minipage}{\textwidth}
+ \begin{minipage}{\textwidth}
   \vspace{-2cm}\hspace{-1.31cm}\includegraphics[width=.65\textwidth]{assets/uva}
-  \end{minipage}
-  \begin{minipage}[b]{.5\textwidth}
+ \end{minipage}
+ \begin{minipage}[b]{.5\textwidth}
   \raggedright\@recipient
-  \end{minipage}
-  \begin{minipage}[b]{.5\textwidth}
+ \end{minipage}
+ \begin{minipage}[b]{.5\textwidth}
   \raggedleft\small
   {\bfseries\@department} \\
   \ifthenelse{\equal{\@visiting}{}}{}{\medskip\@visiting \\}
   \ifthenelse{\equal{\@postal}{}}{}{\medskip\@postal \\}
   \medskip\@website
-  \end{minipage}
+ \end{minipage}
 
-  \bigskip\bigskip
-  \begin{minipage}{.3\textwidth}
+ \bigskip\bigskip
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Date}
   \newline\@date
-  \end{minipage}
-  \begin{minipage}{.3\textwidth}
+ \end{minipage}
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Your reference}
   \newline\@yourreference
-  \end{minipage}
-  \begin{minipage}{.3\textwidth}
+ \end{minipage}
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Our reference}
   \newline\@ourreference
-  \end{minipage}
+ \end{minipage}
 
-  \begin{minipage}{.3\textwidth}
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Contact person}
   \newline\@contactperson
-  \end{minipage}
-  \begin{minipage}{.3\textwidth}
+ \end{minipage}
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Telephone}
   \newline\@phone
-  \end{minipage}
-  \begin{minipage}{.3\textwidth}
+ \end{minipage}
+ \begin{minipage}{.3\textwidth}
   {\footnotesize Email}
   \newline\@email
-  \end{minipage}
+ \end{minipage}
 
-  \begin{minipage}{\textwidth}
+ \begin{minipage}{\textwidth}
   {\footnotesize Subject}
   \newline\@subject
-  \end{minipage}
+ \end{minipage}
 
-  \ifthenelse{\equal{\@enclosed}{}}{\bigskip}{%
-    \begin{minipage}{\textwidth}
-    {\footnotesize Enclosed}
-    \newline\@enclosed
-    \end{minipage}
-    \bigskip
-    }
-  \raggedright
-  }{}
+ \ifthenelse{\equal{\@enclosed}{}}{\bigskip}{%
+  \begin{minipage}{\textwidth}
+   {\footnotesize Enclosed}
+   \newline\@enclosed
+  \end{minipage}
+  \bigskip
+ }
+ \raggedright
+}{}
 
 \ProcessOptions
 \setlength{\parindent}{0pt}
