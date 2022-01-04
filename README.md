@@ -14,4 +14,4 @@ This is an unofficial LaTeX package providing a letterhead template for the Univ
 
 The files `demo.tex` and `demo.pdf` demonstrate the features of the package.
 
-![](https://github.com/piazzai/arguelles/blob/master/demo/demo.jpg)
+![](https://github.com/piazzai/arguelles/blob/master/demo/titlepage.jpg)
