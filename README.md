@@ -6,13 +6,15 @@ This is an unofficial LaTeX package that provides a letterhead template for the 
 
 ## Installation
 
-The package is not yet hosted on CTAN. To install it, clone the repository and place the file `uvaletter.sty` in the directory of your TeX document. Then, just write `\usepackage{uvaletter}` in the preamble, as shown in the image above.
+The package is not yet hosted on CTAN. To install it, clone the repository and place the files `uvaletter.sty` and `logo.jpg` in the directory of your TeX document. Then, just write `\usepackage{uvaletter}` in the document preamble.
 
 If you plan to use the package for multiple documents, or simply do not want to clutter your directory, you can move the file `uvaletter.sty` to `$HOME/texmf/tex/latex`, which is automatically searched by LaTeX. If you do not have such folder yet, you can create one ([read here](https://www.ias.edu/math/computing/faq/local-latex-style-files)).
 
 ## Usage
 
-The package can be loaded with a `pageno` option that enables page numbering, as shown in the image above. Be aware that in order for the layout to be displayed, your letter body should be wrapped in a `letterhead` environment. Below is a minimal working example:
+The package can be loaded with a `pageno` option that enables page numbering, as shown in the image above. Be aware that in order for the layout to show, your letter body should be wrapped in a `letterhead` environment.
+
+Here is a minimal working example:
 
 ```tex
 \documentclass{letter}
