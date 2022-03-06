@@ -6,7 +6,7 @@ This is an unofficial LaTeX package that provides a letterhead template for the 
 
 ## Installation
 
-The package is not yet hosted on CTAN. To install it, place the files `uvaletter.sty` and `logo.jpg` in the directory of your TeX document. Then, just write `\usepackage{uvaletter}` in the document preamble, as shown above.
+The package is not hosted on CTAN. To install it, place the files `uvaletter.sty` and `logo.jpg` in the directory of your TeX document. Then, just write `\usepackage{uvaletter}` in the document preamble, as shown above.
 
 ## Usage
 
