@@ -9,7 +9,7 @@ license: MIT
 
 This is an unofficial LaTeX package that provides a letterhead template for the University of Amsterdam. The design mimics the [official Word template](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/downloadstools/brief/brief.html) of the University and complies with the University's [house style](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijl.html).
 
-![](https://github.com/piazzai/uvaletter/blob/master/demo/demo.jpg)
+![](https://github.com/piazzai/uvaletter/blob/master/screenshot.jpg)
 
 ## Installation
 
