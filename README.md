@@ -49,6 +49,6 @@ Here is a minimal working example:
 \end{document}
 ```
 
-The `\recipient{}` and `\department{}` fields are mandatory and must be non-empty. All other fields are optional.
+The `\recipient{}` and `\department{}` fields are mandatory and must be non-empty. Other fields are optional.
 
 In order for a logo to be displayed, you must indicate a path to the image in `\logo{}`. All official logos of the University of Amsterdam, including faculties, departments, and institutes, can be found [here](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijlelementen/logo/logo.html). If a path is not provided or the file is not found, the logo space is left blank.
