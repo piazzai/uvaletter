@@ -1,12 +1,12 @@
 # uvaletter
 
-This is an unofficial LaTeX package that provides a letterhead template for the University of Amsterdam. The layout is a LaTeX port of the [official template](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/downloadstools/brief/brief.html) (in Word) and it is entirely compliant with the University's [house style](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijl.html).
+This is an unofficial LaTeX package that provides a letterhead template for the University of Amsterdam. The layout is a LaTeX port of the [official Word template](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/downloadstools/brief/brief.html) of the University, and it is entirely compliant with the University's [house style](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijl.html).
 
 ![](https://github.com/piazzai/uvaletter/blob/master/demo/demo.jpg)
 
 ## Installation
 
-The package is not hosted on CTAN. To install it, place the files `uvaletter.sty` and `logo.jpg` in the directory of your TeX document. Then, just write `\usepackage{uvaletter}` in the document preamble, as shown above.
+The package is hosted on CTAN and distributed as part of MikTex and TeXLive. It can also be installed manually by cloning this repository in your `$HOME/texmf/tex/latex` folder. This is useful if you wish to change the logo. If you do not have this folder already, you can [create it](https://www.ias.edu/math/computing/faq/local-latex-style-files).
 
 ## Usage
 
