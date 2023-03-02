@@ -1,3 +1,10 @@
+<!--
+uvaletter v1.0.0
+author: Michele Piazzai
+contact: michele.piazzai@uc3m.es
+license: MIT
+-->
+
 # uvaletter
 
 This is an unofficial LaTeX package that provides a letterhead template for the University of Amsterdam. The layout is a LaTeX port of the [official Word template](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/downloadstools/brief/brief.html) of the University, and it is entirely compliant with the University's [house style](https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijl.html).
