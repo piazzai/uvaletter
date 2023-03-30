@@ -1,5 +1,5 @@
 <!--
-uvaletter v1.1.0
+uvaletter v1.1.1
 author: Michele Piazzai
 contact: michele.piazzai@uc3m.es
 license: MIT
