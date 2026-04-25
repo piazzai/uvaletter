@@ -1,7 +1,7 @@
 <!--
-uvaletter v1.1.1
-author: Michele Piazzai
-contact: michele.piazzai@uc3m.es
+uvaletter v1.1.2
+author: piazzai
+contact: hello@piazzai.addy.io
 license: MIT
 -->
 
