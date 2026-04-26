@@ -1,8 +1,8 @@
 <!--
-uvaletter v1.1.2
-author: piazzai
-contact: hello@piazzai.addy.io
-license: MIT
+uvaletter v1.1.2 2026-04-26
+Michele Piazzai <hello@piazzai.addy.io>
+https://piazzai.github.io/
+https://mit-license.org/
 -->
 
 # uvaletter
